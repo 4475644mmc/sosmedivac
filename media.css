@@ -1,0 +1,458 @@
+
+/* Media query for screens up to 480px wide */
+@media (max-width: 550px) {
+body {
+    overflow-x: hidden !important;
+    
+   
+}
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+
+}
+
+@media (max-width: 550px){
+    .navbar-toggler {
+        border-color:none; /* Change the border color of the button */
+        padding-right: 4%;
+        position: relative;
+      }
+
+      .navbar-toggler-icon::before {
+        content: '\f0c9'; /* Unicode for FontAwesome bars icon */
+        font-family: 'FontAwesome';
+        
+      }
+
+      
+      .navbar-toggler-icon {
+        background-image: none; /* Remove the default background image */
+        
+      }
+
+      .navbar-toggler:focus,
+      .navbar-toggler-icon:focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+}
+ 
+@media (max-width: 550px) {
+    .navbar-toggler {
+        border-color: none;
+        position: absolute;
+        right: 10px;
+        top: 50%; /* Centers vertically */
+        transform: translateY(-50%); /* Adjusts positioning */
+    }
+    
+    .navbar-collapse {
+        text-align: center;
+        
+    }
+
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        /* margin-right: 10%; */
+        flex-direction: column;
+        /* align-items: left; */
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+        text-align:left;
+        
+    }
+}
+
+
+
+
+
+/* HOME SECTION PAGE ONE  */
+
+@media (max-width: 550px){
+    .home{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .home-info{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-indent: 0 !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-info h1{
+        font-size: 2rem;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .home-info p{
+        font-size: 0.9rem;
+        text-align: center;
+        max-width: 500px;
+    }
+}
+
+
+/* HOME SECTION PAGE TWO  */
+
+@media (max-width: 550px){
+    .second-page-info{
+        width: 100%;
+        height: 100vh;
+        display: block;
+        /* padding: 0 1rem; */
+
+    }
+
+    .second-page-info .second-page-content{
+        width: 100%;
+        margin-top: 30px;
+        left: 0;
+    }
+
+    .second-page-info .second-page-content h1{
+        font-size: 3rem;
+        margin: 0 0 30px 0;
+    }
+
+    .second-page-info .second-page-content p{
+        font-size: 1.3rem;
+    }
+
+    .second-page-info .second-page-content .btn{
+        margin: 10px 40px 30px 0;
+        margin-left: 0 !important;
+        
+    }
+
+
+}
+
+
+/* HOME SECTION PAGE three  */
+@media (max-width: 550px){
+    .page-three-info{
+        width: 100%;
+        height: 120vh;
+    }
+
+    .page-three-info .page-three-title{
+        width: 100%;
+        margin-top: 5rem;
+       
+    }
+
+    .page-three-info .page-three-title h1{
+        font-size: 3rem;
+    }
+
+    .page-three-info .page-three-title p{
+        font-size: 1.3rem;
+        max-width: 500px;
+    }
+
+    .page-three-info .page-three-content{
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column-reverse;
+    }
+
+
+    
+}
+
+
+/* HOME SECTION PAGE four  */
+@media (max-width: 550px){
+.page-four-content{
+    width: 100%;
+    height: 100vh;
+}
+
+.page-four-content .page-four-title{
+    width: 100%;
+}
+
+.page-four-content .page-four-title h1{
+
+    font-size: 3rem;
+}
+
+.page-four-content .page-four-title p{
+    font-size: 1.3rem;
+    max-width: 500px;
+}
+
+
+.page-four-content .page-four-images{
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.page-four-content .page-four-image-container img{
+    flex-direction: column;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////
+///////////////////////////////////
+///////////////////////////////////////////
+ABOUT PAGE /////////////////////////////////
+////////////
+/////// */
+
+@media (max-width: 550px){
+    .about-page-one{
+        /* width: 100%; */
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .video-container{
+        width: 100%;
+    }
+    .video-container iframe{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        width: 540px;
+        height: 315px !important;
+    }
+
+    .about-page-one .about-page-one-content{
+        width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: left;
+       flex-direction: column;
+       
+       
+    }
+
+    .about-page-one .about-page-one-content h1{
+        font-size: 2rem;
+        max-width: 450px !important;
+        margin-top: 5%;
+    }
+
+    .about-page-one .about-page-one-content p{
+        color: black;
+        width: 450px;
+       text-align:justify;
+        font-size: 20px;
+    }
+
+    .about-page-one .about-page-one-content-numbers{
+        /* margin-right: 1.7rem; */
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8rem;
+    }
+
+    /* ABOUT PAGE ONE GALLERY SECTION  */
+
+  .about-page-one-Gallery{
+    width: 100%;
+    height: 100%;
+  }  
+
+  .about-page-one-Gallery .page-one-Gallery-content-decription h1{
+    font-size: 2rem;
+  }
+
+  .about-page-one-Gallery .page-one-Gallery-content-decription p{
+    font-size: 20px;
+  }
+
+  .about-page-one-Gallery .page-one-imageswithcontent p{
+    font-size: 20px;
+  }
+
+  /* ABOUT PAGE ONE GALLERY PHOTO SECTION  */
+
+  .gallery-photo{
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-photo .gallery-photo-images{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+
+/* /////////////////////////////////
+//////////////////////////////////
+SERVICES PAGE //////////////////////////////
+////////////////////////////////////
+//////////////////////// */
+
+@media (max-width: 550px){
+    .services-page-one{
+        padding: 12%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .services-page-one .service-page-one-image-collection{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        position: relative;
+       
+        
+    }
+
+    .services-page-one .service-page-one-image{
+        margin-bottom: 40px;
+    }
+
+
+    /* service-page-two  */
+
+    .service-page-two{
+        width: 100%;
+        height: 100%;
+    }
+
+    .service-page-two .Quljeed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    
+}
+
+
+/* //////////////////////////////////////
+////////////////////CONTACTS PAGE ///////
+/////////////////////////////
+////////////////////
+///////////////
+//////////
+//// */
+
+/* CONTACT PAGE ONE SECTION  */
+@media (max-width: 550px){
+.page-one-contact{
+    width: 100%;
+    height: 110vh;
+    margin-top: 10%;
+}
+
+.page-one-contact .page-one-contact-content{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    /* align-items:center; */
+    flex-direction: column;
+    margin-left: 4rem;
+   
+}
+
+.page-one-contact form .form-control{
+    width: 440px;
+}
+
+.page-one-contact .contact-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    
+
+}
+
+.page-one-contact .contact-image img{
+    height: 50vh;
+    width: 90%;
+    transform: translate(-9%, -70%) !important;
+    
+}
+
+/* FOOTER SERCTION  */
+
+.footer{
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer .footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 20px;
+    /* padding-bottom: 2rem !important; */
+}
+
+.footer .warehous-address{
+    margin-bottom: 2rem;
+    line-height: .5;
+}
+
+.footer .club-address{
+    margin-bottom: 2rem;
+    line-height: .5;
+}
+
+.footer .email{
+    margin-bottom: 2rem;
+    line-height: .5;
+}
+
+.footer .phone{
+    margin-bottom: 2rem;
+    line-height: .5;
+}
+
+
+
+}
+
+
+
+
+
